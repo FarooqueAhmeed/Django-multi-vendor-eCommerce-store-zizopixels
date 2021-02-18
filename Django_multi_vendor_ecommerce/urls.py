@@ -23,9 +23,12 @@ from django.conf.urls.static import static
 
 
 from Django_multi_vendor_ecommerce import settings
+from multi_vendor.views import index
 
 urlpatterns = [
+
     path('admin/', admin.site.urls),
+    path('', index, name='index'),
 ]
 
 
