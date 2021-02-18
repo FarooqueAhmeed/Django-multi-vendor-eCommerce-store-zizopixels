@@ -4,6 +4,13 @@ from django.db import models
 
 
 
+
+
+
+# 1st Products , Orders , Reviews , Comments , users ,Save , Add to cart
+
+
+
 # - vendors
    # - Name
    # - City
@@ -22,6 +29,7 @@ from django.db import models
         # - BIO
         # - venders(R)
         # -
+
 
 
 
